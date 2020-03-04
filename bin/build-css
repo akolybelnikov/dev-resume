@@ -1,0 +1,1 @@
+node-sass --include-path scss assets/scss/devresume.scss assets/css/devresume.css
