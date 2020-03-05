@@ -164,11 +164,13 @@ a.project-link {
 .resume-intro {
   font-size: 0.875rem;
 }
+
+.item-title {
+  font-size: 1rem;
+  color: $theme-color-secondary;
+}
+
 .resume-main {
-  .item-title {
-    font-size: 1rem;
-    color: $theme-color-secondary;
-  }
 
   .item-subtitle {
     font-size: 0.85rem;
@@ -215,7 +217,7 @@ a.project-link {
 }
 
 .resume-aside {
-  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  border-left: 1px solid $theme-color-secondary-light;
   .item {
     font-size: 0.875rem;
   }
@@ -227,6 +229,10 @@ a.project-link {
 .resume-education-list,
 .resume-awards-list {
   font-size: 0.875rem;
+}
+
+.resume-degree {
+  color: $theme-color-secondary;
 }
 
 .resume-degree-time-org,
