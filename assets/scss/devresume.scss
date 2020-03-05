@@ -16,7 +16,7 @@ $theme-text-color-primary: #292929;
 $theme-text-color-secondary: lighten($theme-text-color-primary, 15%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 $theme-border-color: lighten($theme-text-color-primary, 60%);
-$theme-color-secondary-light: rgba(165, 44, 35, .4);
+$theme-color-secondary-light: rgba(165, 44, 35, 0.4);
 
 /*************************** Variables Section. *****************************/
 // Create variables to override the default value for variables used in the Bootstrap SCSS files.
@@ -133,12 +133,13 @@ a.theme-link {
   font-size: 0.75rem;
 }
 
-.fa-fw {
+.fa-fw,
+.fa-2x {
   color: $theme-color-secondary;
 }
 
 hr {
-	border-top: 1px solid $theme-color-secondary-light;
+  border-top: 1px solid $theme-color-secondary-light;
 }
 
 a.resume-link {
@@ -157,15 +158,51 @@ a.resume-link {
 }
 .resume-main {
   .item-title {
-	font-size: 1rem;
-	color: $theme-color-secondary;
+    font-size: 1rem;
+    color: $theme-color-secondary;
+  }
+
+  .item-subtitle {
+    font-size: 0.85rem;
+    font-weight: bolder;
+    color: $theme-color-primary;
   }
 
   .item-meta {
-	font-size: 0.75rem;
+    font-size: 0.75rem;
   }
+
   .item-content {
     font-size: 0.875rem;
+  }
+
+  .resume-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+    li {
+      list-style: none;
+      margin: 0 0 .25em 1.1225em;
+      /* Give the bullet room on the left hand side */
+      padding: 0;
+      position: relative;
+    }
+
+    li::before {
+      color: $theme-color-primary;
+      /* color of bullet or square */
+      content: "\2022";
+      /* Unicode of character to precede the list item */
+      display: inline-block;
+      font-size: 1.5em;
+      /* use em or % */
+      left: -.75em;
+      /* use em, line up bullet flush with left hand side */
+      position: absolute;
+      /* Set the bullet positioned absolutely top left */
+      top: -.25em;
+      /* use em or % */
+    }
   }
 }
 
