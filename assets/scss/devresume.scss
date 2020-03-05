@@ -149,6 +149,14 @@ a.resume-link {
   }
 }
 
+a.project-link {
+  color: $theme-color-primary;
+  text-decoration: underline;
+  &:hover {
+    color: $theme-color-secondary;
+  }
+}
+
 .resume-profile-image {
   max-width: 120px;
 }
@@ -182,8 +190,8 @@ a.resume-link {
     margin: 0 0 1rem;
     li {
       list-style: none;
-      margin: 0 0 .25em 1.1225em;
-      /* Give the bullet room on the left hand side */
+      margin: 0 .1225em .1225em 1.1225em;
+      display: inline-block;
       padding: 0;
       position: relative;
     }

@@ -7176,6 +7176,12 @@ a.resume-link {
   a.resume-link:hover {
     color: #435b96; }
 
+a.project-link {
+  color: #435b96;
+  text-decoration: underline; }
+  a.project-link:hover {
+    color: #a52c23; }
+
 .resume-profile-image {
   max-width: 120px; }
 
@@ -7203,8 +7209,8 @@ a.resume-link {
   margin: 0 0 1rem; }
   .resume-main .resume-list li {
     list-style: none;
-    margin: 0 0 .25em 1.1225em;
-    /* Give the bullet room on the left hand side */
+    margin: 0 .1225em .1225em 1.1225em;
+    display: inline-block;
     padding: 0;
     position: relative; }
   .resume-main .resume-list li::before {
