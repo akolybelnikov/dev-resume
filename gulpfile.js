@@ -4,6 +4,7 @@ const autoprefixer = require("gulp-autoprefixer");
 const browserSync = require("browser-sync").create();
 const cssnano = require("gulp-cssnano");
 const uncss = require("gulp-uncss");
+var critical = require("critical");
 
 gulp.task("sass", function() {
   return gulp
@@ -22,7 +23,7 @@ gulp.task("serve", function() {
     port: 4000
   });
 
-  gulp.watch("assets/scss/*scss", gulp.series('sass'));
+  gulp.watch("assets/scss/*scss", gulp.series("sass"));
   gulp.watch("index.html").on("change", browserSync.reload);
 });
 
@@ -41,3 +42,19 @@ gulp.task("default", function() {
     .pipe(cssnano())
     .pipe(gulp.dest("assets/css"));
 });
+
+// Generate & Inline Critical-path CSS
+gulp.task(
+  "critical",
+  gulp.series("default", function(cb) {
+    return critical.generate({
+      inline: true,
+      base: ".",
+      src: "index.html",
+      dest: "index-critical.html",
+      width: 320,
+      height: 480,
+      minify: true
+    });
+  })
+);
