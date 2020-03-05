@@ -10,9 +10,6 @@ gulp.task("sass", function() {
     .src("assets/scss/*.scss")
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(browserSync.reload, {
-      end: false
-    })
     .pipe(gulp.dest("assets/css"));
 });
 
