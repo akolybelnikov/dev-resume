@@ -1,0 +1,1 @@
+gulp critical && rm ./index.html && mv index-critical.html index.html

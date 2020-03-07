@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "./bin/build-css",
     "watch-css": "./bin/watch-css",
-    "build-prod": "./bin/default-task"
+    "build-prod": "./bin/build-prod"
   },
   "keywords": [
     "cv",

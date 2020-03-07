@@ -10,11 +10,672 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content>
-  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+  <meta name="author" content="Andrey Kolybelnikov">
+  <meta name="keywords" content="angular, vue, react, gatsby, gridsome, next.js, nuxt, javascript, typescript, npm, yarn, bazel, webpack, rollup, babael, rxjs, monorepository, material design, pwa, unit tests, jest, css, html, i18n, json, proxy, srr, server, api, node, websockets, nginx, docer, vsts, ci, cd, d3, highcharts, jwt, express, graphql, context api, styled componentszeit now, bootstrap, bulma, postgresql, frontend developer, resume, gig, cv, fullstack, web">
+  <meta name="description" content="Self-driven and enthusiastic software developer, experienced in building and maintaining web
+  applications in start-ups, small businesses, and enterprises. Proficient in JavaScript and has a
+  knowledge of a few other programming languages. Passionate about details, functionality, integration and
+  clean code. Has deep respect for the culture, process, and craft of software development in general. Has
+  a good understanding of the user experience and appreciation of the whole journey from a
+  wireframe to a functional product with a stable and maintainable codebase. Keen on the back-end and
+  dev-ops integrations, tools automation, sharp UX and shared code ownership.">
+  <meta name="subject" content="curriculum vitae">
+  <meta name="robots" content="index,follow">
+  <meta name="url" content="https://akolybelnikov.now.sh">
+  <meta name="identifier-URL" content="https://akolybelnikov.now.sh">
+  <meta name="category" content="CV">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
+  <meta name="rating" content="General">
+  <meta name="revisit-after" content="7 days">
+  <meta http-equiv="Expires" content="0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Cache-Control" content="no-cache">
   <link rel="shortcut icon" href="favicon.ico">
 
   <!-- Google Fonts -->
+  <style>
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype')
+    }
+
+    :root {
+      --blue: #007bff;
+      --indigo: #6610f2;
+      --purple: #6f42c1;
+      --pink: #e83e8c;
+      --red: #dc3545;
+      --orange: #fd7e14;
+      --yellow: #ffc107;
+      --green: #28a745;
+      --teal: #20c997;
+      --cyan: #17a2b8;
+      --white: #fff;
+      --gray: #767676;
+      --gray-dark: #434343;
+      --primary: #435b96;
+      --secondary: #4f4f4f;
+      --success: #28a745;
+      --info: #17a2b8;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --light: #c2c2c2;
+      --dark: #434343;
+      --breakpoint-xs: 0;
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px;
+      --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    }
+
+    *,
+    :after,
+    :before {
+      box-sizing: border-box
+    }
+
+    html {
+      font-family: sans-serif;
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%
+    }
+
+    article {
+      display: block
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #292929;
+      text-align: left;
+      background-color: #fff
+    }
+
+    hr {
+      box-sizing: content-box;
+      height: 0;
+      overflow: visible
+    }
+
+    h2 {
+      margin-top: 0
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem
+    }
+
+    a {
+      color: #435b96;
+      text-decoration: none;
+      background-color: transparent
+    }
+
+    img {
+      vertical-align: middle;
+      border-style: none
+    }
+
+    ::-webkit-file-upload-button {
+      font: inherit;
+      -webkit-appearance: button
+    }
+
+    h2 {
+      margin-bottom: .5rem;
+      font-weight: 500;
+      line-height: 1.2
+    }
+
+    h2 {
+      font-size: 2rem
+    }
+
+    hr {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, .1)
+    }
+
+    .list-unstyled {
+      padding-left: 0;
+      list-style: none
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px
+    }
+
+    .col-12,
+    .col-lg-4,
+    .col-lg-8,
+    .col-md-6,
+    .col-xl-3,
+    .col-xl-9 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px
+    }
+
+    .col-12 {
+      flex: 0 0 100%;
+      max-width: 100%
+    }
+
+    .media {
+      display: flex;
+      align-items: flex-start
+    }
+
+    .rounded {
+      border-radius: .25rem !important
+    }
+
+    .d-none {
+      display: none !important
+    }
+
+    .flex-column {
+      flex-direction: column !important
+    }
+
+    .align-items-center {
+      align-items: center !important
+    }
+
+    .shadow-lg {
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important
+    }
+
+    .mb-0 {
+      margin-bottom: 0 !important
+    }
+
+    .mr-2 {
+      margin-right: .5rem !important
+    }
+
+    .mb-2 {
+      margin-bottom: .5rem !important
+    }
+
+    .mb-3 {
+      margin-bottom: 1rem !important
+    }
+
+    .my-5 {
+      margin-top: 3rem !important
+    }
+
+    .mb-5,
+    .my-5 {
+      margin-bottom: 3rem !important
+    }
+
+    .py-3 {
+      padding-top: 1rem !important
+    }
+
+    .px-3 {
+      padding-right: 1rem !important
+    }
+
+    .py-3 {
+      padding-bottom: 1rem !important
+    }
+
+    .px-3 {
+      padding-left: 1rem !important
+    }
+
+    .p-5 {
+      padding: 3rem !important
+    }
+
+    .mx-auto {
+      margin-right: auto !important;
+      margin-left: auto !important
+    }
+
+    .text-uppercase {
+      text-transform: uppercase !important
+    }
+
+    .text-muted {
+      color: #767676 !important
+    }
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #4f4f4f
+    }
+
+    h2 {
+      color: #292929;
+      font-weight: 700
+    }
+
+    .resume-wrapper {
+      border: 1px solid rgba(0, 0, 0, .025)
+    }
+
+    .resume-name {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: .4rem;
+      color: #435b96
+    }
+
+    .resume-tagline {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #a52c23
+    }
+
+    .resume-contact {
+      border-left: 1px solid rgba(165, 44, 35, .4);
+      font-size: .75rem
+    }
+
+    .fa-fw {
+      color: #a52c23
+    }
+
+    hr {
+      border-top: 1px solid rgba(165, 44, 35, .4)
+    }
+
+    a.resume-link {
+      color: #4f4f4f
+    }
+
+    .resume-profile-image {
+      max-width: 120px
+    }
+
+    .resume-intro {
+      font-size: .875rem
+    }
+
+    @media (max-width:767.98px) {
+      .resume-contact {
+        border-left: 0
+      }
+    }
+  </style>
+  <style>
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 300;
+      src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format('truetype')
+    }
+
+    @font-face {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype')
+    }
+
+    :root {
+      --blue: #007bff;
+      --indigo: #6610f2;
+      --purple: #6f42c1;
+      --pink: #e83e8c;
+      --red: #dc3545;
+      --orange: #fd7e14;
+      --yellow: #ffc107;
+      --green: #28a745;
+      --teal: #20c997;
+      --cyan: #17a2b8;
+      --white: #fff;
+      --gray: #767676;
+      --gray-dark: #434343;
+      --primary: #435b96;
+      --secondary: #4f4f4f;
+      --success: #28a745;
+      --info: #17a2b8;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --light: #c2c2c2;
+      --dark: #434343;
+      --breakpoint-xs: 0;
+      --breakpoint-sm: 576px;
+      --breakpoint-md: 768px;
+      --breakpoint-lg: 992px;
+      --breakpoint-xl: 1200px;
+      --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+    }
+
+    *,
+    :after,
+    :before {
+      box-sizing: border-box
+    }
+
+    html {
+      font-family: sans-serif;
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%
+    }
+
+    article {
+      display: block
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #292929;
+      text-align: left;
+      background-color: #fff
+    }
+
+    hr {
+      box-sizing: content-box;
+      height: 0;
+      overflow: visible
+    }
+
+    h2 {
+      margin-top: 0
+    }
+
+    ul {
+      margin-top: 0;
+      margin-bottom: 1rem
+    }
+
+    a {
+      color: #435b96;
+      text-decoration: none;
+      background-color: transparent
+    }
+
+    img {
+      vertical-align: middle;
+      border-style: none
+    }
+
+    ::-webkit-file-upload-button {
+      font: inherit;
+      -webkit-appearance: button
+    }
+
+    h2 {
+      margin-bottom: .5rem;
+      font-weight: 500;
+      line-height: 1.2
+    }
+
+    h2 {
+      font-size: 2rem
+    }
+
+    hr {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid rgba(0, 0, 0, .1)
+    }
+
+    .list-unstyled {
+      padding-left: 0;
+      list-style: none
+    }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px
+    }
+
+    .col-12,
+    .col-lg-4,
+    .col-lg-8,
+    .col-md-6,
+    .col-xl-3,
+    .col-xl-9 {
+      position: relative;
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px
+    }
+
+    .col-12 {
+      flex: 0 0 100%;
+      max-width: 100%
+    }
+
+    .media {
+      display: flex;
+      align-items: flex-start
+    }
+
+    .rounded {
+      border-radius: .25rem !important
+    }
+
+    .d-none {
+      display: none !important
+    }
+
+    .flex-column {
+      flex-direction: column !important
+    }
+
+    .align-items-center {
+      align-items: center !important
+    }
+
+    .shadow-lg {
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important
+    }
+
+    .mb-0 {
+      margin-bottom: 0 !important
+    }
+
+    .mr-2 {
+      margin-right: .5rem !important
+    }
+
+    .mb-2 {
+      margin-bottom: .5rem !important
+    }
+
+    .mb-3 {
+      margin-bottom: 1rem !important
+    }
+
+    .my-5 {
+      margin-top: 3rem !important
+    }
+
+    .mb-5,
+    .my-5 {
+      margin-bottom: 3rem !important
+    }
+
+    .py-3 {
+      padding-top: 1rem !important
+    }
+
+    .px-3 {
+      padding-right: 1rem !important
+    }
+
+    .py-3 {
+      padding-bottom: 1rem !important
+    }
+
+    .px-3 {
+      padding-left: 1rem !important
+    }
+
+    .p-5 {
+      padding: 3rem !important
+    }
+
+    .mx-auto {
+      margin-right: auto !important;
+      margin-left: auto !important
+    }
+
+    .text-uppercase {
+      text-transform: uppercase !important
+    }
+
+    .text-muted {
+      color: #767676 !important
+    }
+
+    body {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #4f4f4f
+    }
+
+    h2 {
+      color: #292929;
+      font-weight: 700
+    }
+
+    .resume-wrapper {
+      border: 1px solid rgba(0, 0, 0, .025)
+    }
+
+    .resume-name {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: .4rem;
+      color: #435b96
+    }
+
+    .resume-tagline {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: #a52c23
+    }
+
+    .resume-contact {
+      border-left: 1px solid rgba(165, 44, 35, .4);
+      font-size: .75rem
+    }
+
+    .fa-fw {
+      color: #a52c23
+    }
+
+    hr {
+      border-top: 1px solid rgba(165, 44, 35, .4)
+    }
+
+    a.resume-link {
+      color: #4f4f4f
+    }
+
+    .resume-profile-image {
+      max-width: 120px
+    }
+
+    .resume-intro {
+      font-size: .875rem
+    }
+
+    @media (max-width:767.98px) {
+      .resume-contact {
+        border-left: 0
+      }
+    }
+  </style>
   <style>
     @font-face {
       font-family: Roboto;
@@ -701,8 +1362,11 @@
                 <li class="mb-2">
                   <i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://akolybelnikov.now.sh">akolybelnikov.now.sh</a>
                 </li>
-                <li class="mb-0">
+                <li class="mb-2">
                   <i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Amsterdam, NL
+                </li>
+                <li class="mb-0">
+                  <i class="fas fa-download fa-fw fa-lg mr-2"></i><a class="resume-link" href="./cv_a.kolybelnikov.pdf" download>Download CV as PDF file</a>
                 </li>
               </ul>
             </div>
