@@ -5,6 +5,7 @@ const browserSync = require("browser-sync").create();
 const cssnano = require("gulp-cssnano");
 const uncss = require("gulp-uncss");
 var critical = require("critical");
+const image = require('gulp-image');
 
 gulp.task("sass", function() {
   return gulp
@@ -58,3 +59,9 @@ gulp.task(
     });
   })
 );
+
+gulp.task('image', function () {
+  return gulp.src('./assets/raw-images/*')
+    .pipe(image())
+    .pipe(gulp.dest('./assets/images'));
+});
