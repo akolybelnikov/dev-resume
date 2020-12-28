@@ -17,26 +17,26 @@ I see myself either digitally nomading and working from "homes" in for example G
   <img
     width="24"
     alt="Follow me on Twitter"
-    src="https://raw.githubusercontent.com/akolybelnikov/akolybelnikov/master/assets/icons/twitter.svg"
+    src="https://github.com/akolybelnikov/akolybelnikov/blob/master/assets/icons/twitter.svg"
   /></a>
 &nbsp;
 <a href="https://www.linkedin.com/in/akolybelnikov/" title="Follow me on LinkedIn">
   <img
     width="24"
     alt="Follow me on LinkedIn"
-    src="https://raw.githubusercontent.com/akolybelnikov/akolybelnikov/master/assets/icons/linkedin.svg"
+    src="https://github.com/akolybelnikov/akolybelnikov/blob/master/assets/icons/linkedin.svg"
   /></a>
 &nbsp;
 <a href="https://medium.com/@a-kolybelnikov" title="Follow me on Medium">
   <img
     width="24"
     alt="Follow me on Medium"
-    src="https://raw.githubusercontent.com/akolybelnikov/akolybelnikov/master/assets/icons/medium.svg"
+    src="https://github.com/akolybelnikov/akolybelnikov/blob/master/assets/icons/medium.svg"
   /></a>
 &nbsp;
 <a href="https://dev.to/akolybelnikov" title="Follow me on DevTo">
   <img
     width="24"
     alt="Follow me on DevTo"
-    src="https://raw.githubusercontent.com/akolybelnikov/akolybelnikov/master/assets/icons/devto.svg"
+    src="https://github.com/akolybelnikov/akolybelnikov/blob/master/assets/icons/devto.svg"
   /></a>
