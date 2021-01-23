@@ -9,9 +9,6 @@ towards OMSCS degree at Georgia Institute of Technology known as Georgia Tech in
 ## Interested in
 creating tools for developers with Rust and Javascript, learning about functional programming.
 
-## In a couple of years
-I see myself either digitally nomading and working from "homes" in for example Greece, Canary Islands or Argentina, or permanently living somewhere where it doesn't rain in cold showers almost daily. Professionally I'm aiming at a full-time functional programming position working with something like Closure and Reason.
-
 ## You can find me here
 <a href="https://twitter.com/rokkapi" title="Follow me on Twitter">
   <img
