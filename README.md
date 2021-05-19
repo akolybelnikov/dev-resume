@@ -1,13 +1,13 @@
 # Hi, I'm Andrey
 
 ## Work
-as a full-time software engineer, mostly in web-development. I use a wide range of technologies both on the frontend, and on the backend. I love my work and strive to become better at all the aspects of it.
+full-time as a software engineer. I started out professionally writing mostly on the frontend, and later gravitated to backend. I use a wide range of technologies both on the frontend, and on the backend. Currently discovering cloud engineering.
 
 ## Study
-towards OMSCS degree at Georgia Institute of Technology known as Georgia Tech in my free time as a strategy to improve and broaden my understanding of the fundamental concepts of Computer Science. So far I have completed Network Security, Computer Networks, Software Development Process, Graduate Introduction to Operating Systems, Video Games Design, Embedded Systems Optimization and Database Systems Concepts and Design. Still on the agenda are Graduate Introduction to Algotithms, Distributed Systems and Machine Learning.
+towards OMSCS degree at Georgia Tech in my free time. I'm doing it to deepen my knowledge of Computer Science. I have completed Network Security, Computer Networks, Software Development Process, Graduate Introduction to Operating Systems, Video Games Design, Embedded Systems Optimization and Database Systems Concepts and Design. Still on the agenda are Graduate Introduction to Algotithms, Distributed Systems and Machine Learning.
 
 ## Interested in
-creating tools for developers with Rust and Javascript, learning about functional programming.
+creating tools for developers with Rust and Javascript, learning about functional programming, music, hiking and plants.
 
 ## You can find me here
 <a href="https://twitter.com/rokkapi" title="Follow me on Twitter">
